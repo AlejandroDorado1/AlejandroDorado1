@@ -31,3 +31,9 @@ body {
   width:60%;
   background-color:Purple;
 }
+
+h3 {
+  text-align:center;
+  text-decoration:underline;
+  font-size:150%;
+}
