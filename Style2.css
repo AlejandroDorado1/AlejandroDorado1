@@ -25,15 +25,18 @@ body {
   width: 600px;
   height: 200px;
   overflow: scroll;
+   animation-name:BMIT;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
 }
 
 .content:hover {
   width:60%;
   background-color:Purple;
+ 
 }
 
-h3 {
-  text-align:center;
-  text-decoration:underline;
-  font-size:150%;
+@keyframes BMIT {
+  from {width:600px; background-color:gray;}
+  to {width:80%; background-color:purple;}
 }
