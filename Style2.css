@@ -30,7 +30,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-.content:hover {
+.featured:hover {
   width:60%;
   background-color:Purple;
  
